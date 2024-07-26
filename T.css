@@ -1,0 +1,193 @@
+
+
+.azeret-mono{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared */
+.sh{
+    color:rgb(13, 19, 33); 
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 38px 180px;
+    align-items: center;
+}
+.nav button{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    width: 228px;
+    height: 58px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+}   
+
+.banner{
+    background-image: url(assets/Hero-bg.png) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 200px;
+}
+.banner img{
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+}
+.banner h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin: 20px 0px;
+}
+
+.banner button{
+    color: white;
+    width: 238px;
+    height: 66px;
+    padding: 21px 24px;
+    border-radius: 8px;
+    background:rgb(13, 19, 33) ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+
+}
+
+.full{
+    width:1140px;
+    height: 1295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 97px;
+    margin: 74px auto;
+    background: rgba(13, 19, 33,0.03);
+
+}
+.front{
+    width: 946px;
+}
+
+.front h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.A{
+    width: 946px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin: 0 auto;
+}
+.will{
+    color: rgba(13, 19, 33,0.7);
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 500px;   
+}
+
+.full button{
+    border: 1px solid #0d1321;
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin: 32px 0px;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.A p{
+    text-align: left;
+    max-width: 500px;
+    margin-top: 16px;
+}
+.A img{
+    width:274px;
+    height: 240px;
+}
+.my-ins{
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.my-ins h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.video{
+    border: 1px solid #0d132133;
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    padding: 32px 45px;
+    margin-top: 25px;
+}
+.Target{
+    width: 1140px;
+    height: 571px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 151px; 
+}
+.T h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.T{
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display:flex;
+    margin-bottom: 70px;
+}
+.c{
+    width: 33%;
+    height: 280px;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: 48px;  
+}
+
+.c h3{
+
+
+}
